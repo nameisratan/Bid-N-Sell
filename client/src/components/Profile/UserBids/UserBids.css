@@ -1,0 +1,75 @@
+body {
+    font-family: 'lato', sans-serif;
+  }
+  .vucontainer {
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  h2 {
+    font-size: 26px !important;
+    margin: 20px 0 !important;
+    text-align: center !important;
+    small {
+      font-size: 0.5em!important;
+    }
+  }
+    li {
+      border-radius: 3px!important;
+      padding: 25px 30px!important;
+      display: flex!important;
+      justify-content: space-between!important;
+      margin-bottom: 25px!important;
+    }
+    .vutable-header {
+      background-color: #95A5A6!important;
+      font-size: 14px!important;
+      text-transform: uppercase!important;
+      letter-spacing: 0.03em!important;
+    }
+    .vutable-row {
+      background-color: #ffffff!important;
+      box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1)!important;
+    }
+    .vucol-1 {
+      flex-basis: 10%!important;
+    }
+    .vucol-1img{
+        height: 55px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* width: 50%; */
+        /* aspect-ratio: ; */
+    }
+    .vucol-2 {
+      flex-basis: 8%!important;
+    }
+    .vucol-3 {
+      flex-basis: 20%!important;
+    }
+    .vucol-4 {
+      flex-basis: 15%!important;
+    }
+    .vucol-5 {
+      flex-basis: 10%!important;
+    }
+    .vucol-6 {
+      flex-basis: 15%!important;
+    }
+    .vucol-7 {
+        flex-basis: 20%!important;
+    }
+    .vucol-8 {
+      flex-basis: 15%!important;
+      text-transform: capitalize;
+  }
+    .vuns{
+      height: 60px;
+    }
+    .Hi{
+      cursor: pointer;
+    }

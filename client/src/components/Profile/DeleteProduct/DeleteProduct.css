@@ -1,0 +1,68 @@
+.modal-wrapperdlt{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189, 189, 189, 0.6);
+}
+
+.modal-containerrdlt{
+    position: fixed;
+    border-radius: 10px;
+    height: wrap;
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+}
+
+#batan {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+  }
+  
+#batan.deletebtndlt{
+    background-color: #fa1404;
+}
+
+  #batan:hover {
+    opacity:1;
+  }
+  
+  /* Float cancel and delete buttons and add an equal width */
+  .cancelbtndlt, .deletebtndlt {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtndlt {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtndlt {
+    background-color: #f44336;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .containerdlt {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .clearfixdlt{
+    display: flex;
+    justify-content: space-around;
+  }
